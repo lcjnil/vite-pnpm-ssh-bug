@@ -1,0 +1,16 @@
+{
+    "name": "vite-pnpm-ssh-bug",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "vite": "^6.0.1",
+        "some-package-from-gitssh": "git+https://gitclone.com/github.com/lcjnil/blank-package"
+    },
+    "packageManager": "pnpm@9.14.2"
+}
